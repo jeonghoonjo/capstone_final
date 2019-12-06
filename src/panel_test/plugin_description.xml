@@ -1,0 +1,9 @@
+<library path="lib/libpanel_test">
+  <class name="panel_test/User Command"
+         type="panel_test::CommandPanel"
+         base_class_type="rviz::Panel">
+    <description>
+      A panel widget allowing set velocity, inspection frequency and give command to PIR.
+    </description>
+  </class>
+</library>
